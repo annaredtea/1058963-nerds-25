@@ -15,7 +15,9 @@
         <li><a href="clients.html">Клиенты</a></li>
         <li><a href="inner.html">Магазин</a></li>
         <li><a href="contacts.html">Контакты</a></li>
-        <li><a href="cart.html">Корзина</a></li>
+        <li><a href="cart.html">Корзина</a>
+          <img src="cart-icon.svg" alt="Корзина">
+        </li>
       </ul>
     </nav>
   </header>
@@ -48,11 +50,35 @@
   <footer class="main-footer">
     <div class="footer-social">
       <ul>
-        <li><a class="social-button" href="#">Вконтакте</a></li>
-        <li><a class="social-button" href="#">Фейсбук</a></li>
-        <li><a class="social-button" href="#">Инстаграм</a></li>
+        <li><a class="social-button" href="#" area-label="Дизайн-студия «Нёрдс» во вКонтакте"></a>
+          <img src="vk-icon.svg" alt="вКонтакте"></li>
+        <li><a class="social-button" href="#" area-label="Дизайн-студия «Нёрдс» на Фейсбуке"></a>
+          <img src="fb-icon.svg" alt="Фейсбук"></li>
+        <li><a class="social-button" href="#" area-label="Дизайн-студия «Нёрдс» в Инстаграме"></a>
+          <img src="insta-icon.svg" alt="Инстаграм"></li>
       </ul>
     </div>
+    <section class="write-to-us">
+      <h2>Напишите нам!</h2>
+      <form class="write-to-us-form" action="https://echo.htmlacademy.ru" method="post">
+        <p class="write-to-us-item">
+          <label for="write-to-us-name">Ваше имя:
+          </label>
+          <input type="text" id="write-to-us-name" name="name" value="" placeholder="Имя Фамилия">
+        </p>
+        <p class="write-to-us-item">
+          <label for="write-to-us-e-mail">Ваш e-mail:
+          </label>
+          <input type="text" id="write-to-us-e-mail" name="e-mail" value="" placeholder="email@example.com">
+        </p>
+        <p class="write-to-us-item">
+          <label for="write-to-us-writing">Текст письма:
+          </label>
+          <input type="text" id="write-to-us-writing" name="writing" value="" placeholder="В свободной форме">
+        </p>
+        <button class="button" type="submit">Отправить</button>
+      </form>
+    </section>
     <div class="special-offer">
       <b>Давайте дружить, это выгодно!</b>
       <p>Скидка 10% для друзей из социальных сетей.</p>
