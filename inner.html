@@ -22,57 +22,21 @@
   <main class="container">
     <h1 class="page-title">Магазин готовых шаблонов</h1>
     <section class="setting-filter">
-      <h2 class="visually-hidden">Фильтр настроек</h2>
+      <h2 class="visually-hidden">Отфильтровать шаблоны по параметрам</h2>
       <form class="filter" method="get" action="https://echo.htmlacademy.ru">
         <fieldset>
           <legend>Сетка:</legend>
-          <ul>
-            <li>
-              <label>
-                <input type="radio" name="grid-group" value="adaptive" checked>Адаптивная
-              </label>
-            </li>
-            <li>
-              <label>
-                <input type="radio" name="grid-group" value="fixed">Фиксированная
-              </label>
-            </li>
-            <li>
-              <label>
-                <input type="radio" name="grid-group" value="rubber">Резиновая
-              </label>
-            </li>
-          </ul>
+          <label><input type="radio" name="grid-group" value="adaptive" checked>Адаптивная</label>
+          <label><input type="radio" name="grid-group" value="fixed">Фиксированная</label>
+          <label><input type="radio" name="grid-group" value="rubber">Резиновая</label>
         </fieldset>
         <fieldset>
           <legend>Особенности:</legend>
-          <ul>
-            <li>
-              <label>
-                <input type="checkbox" name="slider" checked>Слайдер
-              </label>
-            </li>
-            <li>
-              <label>
-                <input type="checkbox" name="advantages-block">Блок преимуществ
-              </label>
-            </li>
-            <li>
-              <label>
-                <input type="checkbox" name="news" checked>Новости
-              </label>
-            </li>
-            <li>
-              <label>
-                <input type="checkbox" name="gallery">Галерея
-              </label>
-            </li>
-            <li>
-              <label>
-                <input type="checkbox" name="cart">Корзина
-              </label>
-            </li>
-          </ul>
+          <label><input type="checkbox" name="slider" checked>Слайдер</label>
+          <label><input type="checkbox" name="advantages-block">Блок преимуществ</label>
+          <label><input type="checkbox" name="news" checked>Новости</label>
+          <label><input type="checkbox" name="gallery">Галерея</label>
+          <label><input type="checkbox" name="cart">Корзина</label>
         </fieldset>
         <button class="filter-button" type="submit">Показать</button>
       </form>
@@ -124,39 +88,33 @@
   <footer class="main-footer">
     <div class="footer-social">
       <ul>
-        <li><a class="social-button" href="#" area-label="Дизайн-студия «Нёрдс» во вКонтакте"></a>
-          <img src="vk-icon.svg" alt="вКонтакте"></li>
-        <li><a class="social-button" href="#" area-label="Дизайн-студия «Нёрдс» на Фейсбуке"></a>
-          <img src="fb-icon.svg" alt="Фейсбук"></li>
-        <li><a class="social-button" href="#" area-label="Дизайн-студия «Нёрдс» в Инстаграме"></a>
-          <img src="insta-icon.svg" alt="Инстаграм"></li>
+        <li><a class="social-button" href="#" aria-label="Дизайн-студия «Нёрдс» во вКонтакте"><img src="vk-icon.svg" alt="вКонтакте"></a></li>
+        <li><a class="social-button" href="#" aria-label="Дизайн-студия «Нёрдс» на Фейсбуке"><img src="fb-icon.svg" alt="Фейсбук"></a></li>
+        <li><a class="social-button" href="#" aria-label="Дизайн-студия «Нёрдс» в Инстаграме"><img src="insta-icon.svg" alt="Инстаграм"></a></li>
       </ul>
     </div>
-    <section class="write-to-us">
-      <h2>Напишите нам!</h2>
-      <form class="write-to-us-form" action="https://echo.htmlacademy.ru" method="post">
-        <p class="write-to-us-item">
-          <label for="write-to-us-name">Ваше имя:
-          </label>
-          <input type="text" id="write-to-us-name" name="name" value="" placeholder="Имя Фамилия">
-        </p>
-        <p class="write-to-us-item">
-          <label for="write-to-us-e-mail">Ваш e-mail:
-          </label>
-          <input type="text" id="write-to-us-e-mail" name="e-mail" value="" placeholder="email@example.com">
-        </p>
-        <p class="write-to-us-item">
-          <label for="write-to-us-writing">Текст письма:
-          </label>
-          <input type="text" id="write-to-us-writing" name="writing" value="" placeholder="В свободной форме">
-        </p>
-        <button class="button" type="submit">Отправить</button>
-      </form>
-    </section>
     <div class="special-offer">
       <b>Давайте дружить, это выгодно!</b>
       <p>Скидка 10% для друзей из социальных сетей.</p>
     </div>
   </footer>
+  <div class="write-to-us">
+    <h2>Напишите нам!</h2>
+    <form class="write-to-us-form" action="https://echo.htmlacademy.ru" method="post">
+      <p class="write-to-us-item">
+        <label for="write-to-us-name">Ваше имя:</label>
+        <input type="text" id="write-to-us-name" name="name" value="" placeholder="Имя Фамилия">
+      </p>
+      <p class="write-to-us-item">
+        <label for="write-to-us-e-mail">Ваш e-mail:</label>
+        <input type="text" id="write-to-us-e-mail" name="e-mail" value="" placeholder="email@example.com">
+      </p>
+      <p class="write-to-us-item">
+        <label for="write-to-us-writing">Текст письма:</label>
+        <input type="text" id="write-to-us-writing" name="writing" value="" placeholder="В свободной форме">
+      </p>
+      <button class="button" type="submit">Отправить</button>
+    </form>
+  </div>
 </body>
 </html>
