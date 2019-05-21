@@ -195,6 +195,20 @@ a {
   text-transform: uppercase;
 }
 
+.purchase {
+  background-color: #fb565a;
+}
+
+.purchase:hover,
+.purchase:focus {
+  background-color: #e74246;
+}
+
+.purchase:active {
+  box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
+  background-color: #d7373b;
+}
+
 .main-footer {
   background-color: #eeeeee;
 }
