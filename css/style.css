@@ -22,7 +22,6 @@ a {
   line-height: 30px;
   color: #000000;
   text-transform: uppercase;
-
   background-color: #eeeeee;
 }
 
@@ -196,9 +195,11 @@ a {
   text-transform: uppercase;
 }
 
+.main-footer {
+  background-color: #eeeeee;
+}
 .footer-social ul {
   list-style: none;
-  text-decoration: none;
 }
 
 .social-button {
@@ -229,7 +230,7 @@ a {
   color: #000000;
 }
 
-.write-to-us-item input {
+.write-to-us-form {
   font-size: 16px;
   line-height: 18px;
   text-align: left;
