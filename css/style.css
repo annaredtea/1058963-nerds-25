@@ -217,7 +217,6 @@ a {
   line-height: 45px;
   text-align: left;
   color: #000000;
-  text-transform: uppercase;
 }
 
 .write-to-us-item input {
@@ -264,14 +263,14 @@ a {
   color: #e74246;
 }
 
-.special-offer .b {
+.special-offer b {
   font-size: 36px;
   line-height: 36px;
   text-align: left;
   font-weight: bold;
 }
 
-.special-offer .p {
+.special-offer p {
   font-size: 16px;
   line-height: 22px;
   font-weight: normal;
