@@ -147,12 +147,12 @@ a {
   color: #283136;
 }
 
-.grid-group:hover +label,
-.grid-group:focus + label {
+.grid-group:hover,
+.grid-group:focus {
   color: #283136;
 }
 
-.grid-group:disabled + label {
+.grid-group:disabled {
   color: rgba(40, 49, 54, 0.3);
 }
 
@@ -187,7 +187,7 @@ a {
   color: #666666;
 }
 
-.catalog-item-name h3 {
+.catalog-item-name {
   font-size: 18px;
   line-height: 30px;
   font-weight: bold;
@@ -281,7 +281,6 @@ a {
 }
 
 .special-offer p {
-  font-family: "Roboto", Arial, sans-serif;
   font-size: 16px;
   line-height: 22px;
   font-weight: normal;
