@@ -25,6 +25,20 @@ a {
   background-color: #eeeeee;
 }
 
+.main-header {
+  margin-bottom: 80px;
+}
+
+.main-navigation {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-header-logo {
+  width: 160px;
+  height: 65px;
+}
+
 .main-header-logo a:hover,
 .main-header-logo a:focus {
   opacity: 0.8;
@@ -35,19 +49,32 @@ a {
 }
 
 .site-navigation {
+  width: 450;
+  margin: 0;
+  padding: 0;
   list-style: none;
+  justify-content: space-between;
 }
 
-.site-navigation a {
+.cart {
+  width: 74px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-right: 286px;
+  margin-left: 140px;
+}
+
+.main-navigation a {
   color: #000000;
 }
 
-.site-navigation a:hover,
-.site-navigation a:focus {
+.main-navigation a:hover,
+.main-navigation a:focus {
   color: #fb565a;
 }
 
-.site-navigation a:active {
+.main-navigation a:active {
   color: rgba(0, 0, 0, 0.3);
 }
 
@@ -57,12 +84,27 @@ a {
   text-align: center;
 }
 
+.container {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.services {
+  margin-bottom: 80px;
+}
+
 .services-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
 .services-item {
   text-align: left;
+  width: 300px;
 }
 
 .services-item h3 {
@@ -211,7 +253,20 @@ a {
 
 .main-footer {
   background-color: #eeeeee;
+  padding: 140px 356px;
+  margin-top: 75px;
 }
+
+.main-footer .container {
+  display: flex;
+}
+
+.footer-social {
+  margin-right: 139px;
+  width: 260px;
+  margin: 0;
+}
+
 .footer-social ul {
   list-style: none;
 }
@@ -235,6 +290,29 @@ a {
 
 .social-button a:active {
   opacity: 0.3;
+}
+
+.special-offer {
+  width: 545px;
+  margin: 0;
+}
+
+.special-offer b {
+  font-size: 36px;
+  line-height: 36px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.special-offer p {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: normal;
+  color: #444444;
+}
+
+.write-to-us {
+  margin: 0;
 }
 
 .write-to-us h2 {
@@ -286,18 +364,4 @@ a {
 .e-mail:active,
 .writing:active {
   color: #e74246;
-}
-
-.special-offer b {
-  font-size: 36px;
-  line-height: 36px;
-  text-align: left;
-  font-weight: bold;
-}
-
-.special-offer p {
-  font-size: 16px;
-  line-height: 22px;
-  font-weight: normal;
-  color: #444444;
 }
