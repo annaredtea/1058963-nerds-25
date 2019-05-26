@@ -23,15 +23,17 @@ a {
   color: #000000;
   text-transform: uppercase;
   background-color: #eeeeee;
+  flex-direction: row;
 }
 
 .main-header {
   margin-bottom: 80px;
+  margin-left: 140px;
+  margin-right: 202px;
 }
 
-.main-navigation {
-  display: flex;
-  flex-direction: column;
+.inner-page .main-header {
+  margin-bottom: 60px;
 }
 
 .main-header-logo {
@@ -82,6 +84,9 @@ a {
   font-size: 55px;
   line-height: 55px;
   text-align: center;
+  margin: 0;
+  margin-bottom: 116px;
+  padding: 0;
 }
 
 .container {
@@ -179,6 +184,14 @@ a {
   font-size: 18px;
   line-height: 30px;
   font-weight: bold;
+}
+
+.setting-filter {
+  width: 450px;
+}
+
+.catalog {
+  width: 800px;
 }
 
 .grid-item,
