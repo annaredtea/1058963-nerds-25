@@ -87,11 +87,10 @@ a {
 
 .page-title h1 {
   font-size: 55px;
-  line-height: 55px;
   text-align: center;
   margin: 0;
-  margin-bottom: 176px;
-
+  margin-bottom: 116px;
+  align-items: center;
 }
 
 .container {
@@ -124,6 +123,8 @@ a {
   font-size: 23px;
   line-height: 135px;
   text-transform: uppercase;
+  margin: 0;
+  padding: 0;
 }
 
 .services-item-tagline {
@@ -297,7 +298,7 @@ a {
 
 .main-footer {
   background-color: #eeeeee;
-  margin-top: 75px;
+  min-height: 217px;
 }
 
 .footer-container {
@@ -305,6 +306,7 @@ a {
 }
 
 .footer-social {
+  margin-left: 139px;
   margin-right: 139px;
   width: 260px;
   margin: 0;
@@ -336,7 +338,7 @@ a {
 }
 
 .special-offer {
-  width: 545px;
+  width: auto;
   margin: 0;
   align-items: center;
 }
