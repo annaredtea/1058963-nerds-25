@@ -26,84 +26,86 @@
   </header>
   <main class="container">
     <h1 class="page-title">Магазин готовых шаблонов</h1>
-    <section class="setting-filter">
-      <h2 class="visually-hidden">Отфильтровать шаблоны по параметрам</h2>
-      <form class="filter" method="get" action="https://echo.htmlacademy.ru">
-        <fieldset>
-          <legend>Сетка:</legend>
-          <div class="grid-item">
-            <label><input type="radio" name="grid-group" value="adaptive" checked>Адаптивная</label>
+    <div class="catalog-columns">
+      <section class="setting-filter">
+        <h2 class="visually-hidden">Отфильтровать шаблоны по параметрам</h2>
+        <form class="filter" method="get" action="https://echo.htmlacademy.ru">
+          <fieldset>
+            <legend>Сетка:</legend>
+            <div class="grid-item">
+              <label><input type="radio" name="grid-group" value="adaptive" checked>Адаптивная</label>
+            </div>
+            <div class="grid-item">
+              <label><input type="radio" name="grid-group" value="fixed">Фиксированная</label>
+            </div>
+            <div class="grid-item">
+              <label><input type="radio" name="grid-group" value="rubber">Резиновая</label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Особенности:</legend>
+            <div class="features-item">
+              <label><input type="checkbox" name="slider" checked>Слайдер</label>
+            </div>
+            <div class="features-item">
+              <label><input type="checkbox" name="advantages-block">Блок преимуществ</label>
+            </div>
+            <div class="features-item">
+              <label><input type="checkbox" name="news" checked>Новости</label>
+            </div>
+            <div class="features-item">
+              <label><input type="checkbox" name="gallery">Галерея</label>
+            </div>
+            <div class="features-item">
+              <label><input type="checkbox" name="cart">Корзина</label>
+            </div>
+          </fieldset>
+          <button class="filter-button" type="submit">Показать</button>
+        </form>
+      </section>
+      <div class="catalog">
+        <div class="catalog-item-preview">
+          <img src="img/product-1.png" width="360" height="576" alt="Sedona">
+          <div class="catalog-item-info">
+            <h3 class="catalog-item-name">Sedona</h3>
+            <p class="catalog-item-specification">Информационный сайт<br> для туристов</p>
+            <a class="button purchase" href="#">9 900 РУБ.</a>
           </div>
-          <div class="grid-item">
-            <label><input type="radio" name="grid-group" value="fixed">Фиксированная</label>
-          </div>
-          <div class="grid-item">
-            <label><input type="radio" name="grid-group" value="rubber">Резиновая</label>
-          </div>
-        </fieldset>
-        <fieldset>
-          <legend>Особенности:</legend>
-          <div class="features-item">
-            <label><input type="checkbox" name="slider" checked>Слайдер</label>
-          </div>
-          <div class="features-item">
-            <label><input type="checkbox" name="advantages-block">Блок преимуществ</label>
-          </div>
-          <div class="features-item">
-            <label><input type="checkbox" name="news" checked>Новости</label>
-          </div>
-          <div class="features-item">
-            <label><input type="checkbox" name="gallery">Галерея</label>
-          </div>
-          <div class="features-item">
-            <label><input type="checkbox" name="cart">Корзина</label>
-          </div>
-        </fieldset>
-        <button class="filter-button" type="submit">Показать</button>
-      </form>
-    </section>
-    <div class="catalog">
-      <div class="catalog-item-preview">
-        <img src="img/product-1.png" width="360" height="576" alt="Sedona">
-        <div class="catalog-item-info">
-          <h3 class="catalog-item-name">Sedona</h3>
-          <p class="catalog-item-specification">Информационный сайт<br> для туристов</p>
-          <a class="button purchase" href="#">9 900 РУБ.</a>
         </div>
-      </div>
-      <div class="catalog-item-preview">
-        <img src="img/product-2.png" width="360" height="576" alt="Pink App">
-        <div class="catalog-item-info">
-          <h3 class="catalog-item-name">Pink App</h3>
-          <p class="catalog-item-specification">Продуктовый лендинг<br> приложения для iOS и Android</p>
+        <div class="catalog-item-preview">
+          <img src="img/product-2.png" width="360" height="576" alt="Pink App">
+          <div class="catalog-item-info">
+            <h3 class="catalog-item-name">Pink App</h3>
+            <p class="catalog-item-specification">Продуктовый лендинг<br> приложения для iOS и Android</p>
+          </div>
         </div>
-      </div>
-      <div class="catalog-item-preview">
-        <img src="img/product-3.png" width="360" height="576" alt="Барбершоп Бородинский">
-        <div class="catalog-item-info">
-          <h3 class="catalog-item-name">Barbershop</h3>
-          <p class="catalog-item-specification">Сайт салона красоты.<br> Для мужчин, да.</p>
+        <div class="catalog-item-preview">
+          <img src="img/product-3.png" width="360" height="576" alt="Барбершоп Бородинский">
+          <div class="catalog-item-info">
+            <h3 class="catalog-item-name">Barbershop</h3>
+            <p class="catalog-item-specification">Сайт салона красоты.<br> Для мужчин, да.</p>
+          </div>
         </div>
-      </div>
-      <div class="catalog-item-preview">
-        <img src="img/product-4.png" width="360" height="576" alt="Mishka">
-        <div class="catalog-item-info">
-          <h3 class="catalog-item-name">Mishka</h3>
-          <p class="catalog-item-specification">Интернет-магазин<br> вязаных игрушек</p>
+        <div class="catalog-item-preview">
+          <img src="img/product-4.png" width="360" height="576" alt="Mishka">
+          <div class="catalog-item-info">
+            <h3 class="catalog-item-name">Mishka</h3>
+            <p class="catalog-item-specification">Интернет-магазин<br> вязаных игрушек</p>
+          </div>
         </div>
-      </div>
-      <div class="catalog-item-preview">
-        <img src="img/product-5.png" width="360" height="576" alt="A+">
-        <div class="catalog-item-info">
-          <h3 class="catalog-item-name">A Plus</h3>
-          <p class="catalog-item-specification">Лендинг курсов повышения<br> квалификации</p>
+        <div class="catalog-item-preview">
+          <img src="img/product-5.png" width="360" height="576" alt="A+">
+          <div class="catalog-item-info">
+            <h3 class="catalog-item-name">A Plus</h3>
+            <p class="catalog-item-specification">Лендинг курсов повышения<br> квалификации</p>
+          </div>
         </div>
-      </div>
-      <div class="catalog-item-preview">
-        <img src="img/product-6.png" width="360" height="576" alt="Кваст">
-        <div class="catalog-item-info">
-          <h3 class="catalog-item-name">Кваст</h3>
-          <p class="catalog-item-specification">Промо-сайт производителя<br> крафтового кваса</p>
+        <div class="catalog-item-preview">
+          <img src="img/product-6.png" width="360" height="576" alt="Кваст">
+          <div class="catalog-item-info">
+            <h3 class="catalog-item-name">Кваст</h3>
+            <p class="catalog-item-specification">Промо-сайт производителя<br> крафтового кваса</p>
+          </div>
         </div>
       </div>
     </div>
