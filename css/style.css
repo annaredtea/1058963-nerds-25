@@ -11,7 +11,9 @@ body {
   background-color: #ffffff;
 }
 
-.inner-page {}
+.inner-page .cart {
+  margin-bottom: 449px;
+}
 
 a {
   text-decoration: none;
@@ -67,6 +69,7 @@ a {
   padding: 0;
   list-style: none;
   margin-left: auto;
+  margin-bottom: 259px;
 }
 
 .main-navigation a {
@@ -97,10 +100,6 @@ a {
   padding: 0 10px;
 }
 
-.services {
-  margin-bottom: 80px;
-}
-
 .services-list {
   display: flex;
   justify-content: space-between;
@@ -109,9 +108,16 @@ a {
   list-style: none;
 }
 
+.services {
+  margin-bottom: 80px;
+}
+
 .services-item {
   text-align: left;
   width: 300px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .services-item h3 {
@@ -291,11 +297,10 @@ a {
 
 .main-footer {
   background-color: #eeeeee;
-  padding: 140px 356px;
   margin-top: 75px;
 }
 
-.main-footer .container {
+.footer-container {
   display: flex;
 }
 
@@ -333,18 +338,17 @@ a {
 .special-offer {
   width: 545px;
   margin: 0;
+  align-items: center;
 }
 
 .special-offer b {
   font-size: 36px;
-  line-height: 36px;
   text-align: left;
   font-weight: bold;
 }
 
 .special-offer p {
   font-size: 16px;
-  line-height: 22px;
   font-weight: normal;
   color: #444444;
 }
