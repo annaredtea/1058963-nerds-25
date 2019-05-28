@@ -78,7 +78,9 @@ a {
 .page-title h1 {
   font-size: 55px;
   text-align: center;
-  margin-left: 359px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 722px;
 }
 
 .container {
