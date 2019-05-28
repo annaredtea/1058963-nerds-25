@@ -81,7 +81,6 @@ a {
   align-items: center;
   margin: 0 auto;
   padding: 0 10px;
-  margin-bottom: 116px;
 }
 
 .container {
@@ -203,6 +202,7 @@ a {
 
 .catalog-columns {
   display: flex;
+  margin-top: 116px;
 }
 
 .grid-item,
