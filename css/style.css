@@ -58,8 +58,9 @@ a {
   margin: 0;
   padding: 0;
   list-style: none;
-  margin-right: 140px;
+  margin-left: auto;
   margin-bottom: 80px;
+  width: 74px;
 }
 
 .main-navigation a {
