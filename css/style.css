@@ -11,9 +11,6 @@ body {
   background-color: #ffffff;
 }
 
-.inner-page .cart {
-  margin-bottom: 449px;
-}
 
 a {
   text-decoration: none;
@@ -33,13 +30,8 @@ a {
 
 .main-header {
   margin-bottom: 80px;
-  margin-left: 140px;
-  margin-right: 202px;
 }
 
-.inner-page .main-header {
-  margin-bottom: 60px;
-}
 
 .main-header-logo {
   width: 160px;
@@ -298,7 +290,6 @@ a {
 
 .main-footer {
   background-color: #eeeeee;
-  min-height: 217px;
 }
 
 .footer-container {
@@ -307,7 +298,6 @@ a {
 
 .footer-social {
   margin-left: 139px;
-  margin-right: 139px;
   width: 260px;
   margin: 0;
 }
@@ -339,7 +329,10 @@ a {
 
 .special-offer {
   margin: 0;
-  padding: 0;
+  text-align: center;
+  padding: 10px 0px;
+  margin-top: 78px;
+  margin-left:
 }
 
 .special-offer b {
