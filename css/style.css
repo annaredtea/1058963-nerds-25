@@ -32,7 +32,6 @@ a {
   margin-bottom: 80px;
 }
 
-
 .main-header-logo {
   width: 160px;
   height: 65px;
@@ -56,12 +55,11 @@ a {
 }
 
 .cart {
-  width: 74px;
   margin: 0;
   padding: 0;
   list-style: none;
   margin-left: auto;
-  margin-bottom: 259px;
+  margin-bottom: 80px;
 }
 
 .main-navigation a {
@@ -83,6 +81,7 @@ a {
   align-items: center;
   margin: 0 auto;
   padding: 0 10px;
+  margin-bottom: 116px;
 }
 
 .container {
@@ -332,7 +331,6 @@ a {
   text-align: center;
   padding: 10px 0px;
   margin-top: 78px;
-  margin-left:
 }
 
 .special-offer b {
