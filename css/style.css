@@ -58,7 +58,7 @@ a {
   margin: 0;
   padding: 0;
   list-style: none;
-  margin-left: auto;
+  margin-right: 140px;
   margin-bottom: 80px;
 }
 
@@ -78,6 +78,7 @@ a {
 .page-title h1 {
   font-size: 55px;
   text-align: center;
+  margin-left: 359px;
 }
 
 .container {
