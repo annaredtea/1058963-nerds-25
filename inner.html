@@ -9,27 +9,43 @@
 </head>
 <body>
   <header class="main-header">
-    <nav class="main-navigation">
-      <a class="main-header-logo" href="index.html">
-        <img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип дизайн-студии «Нёрдс»">
-      </a>
-      <ul class="site-navigation">
-        <li><a href="studio.html">Студия</a></li>
-        <li><a href="clients.html">Клиенты</a></li>
-        <li class="site-navigation-current">Магазин</li>
-        <li><a href="contacts.html">Контакты</a></li>
-      </ul>
-      <div class="cart">
-        <a href="cart.html">Корзина</a>
-      </div>
-    </nav>
+    <div class="container">
+      <nav class="main-navigation">
+        <a class="main-header-logo" href="index.html">
+          <img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип дизайн-студии «Нёрдс»">
+        </a>
+        <ul class="site-navigation">
+          <li><a href="studio.html" class="site-navigation-link">Студия</a></li>
+          <li><a href="clients.html" class="site-navigation-link">Клиенты</a></li>
+          <li class="site-navigation-current" class="site-navigation-link">Магазин</li>
+          <li><a href="contacts.html" class="site-navigation-link">Контакты</a></li>
+        </ul>
+        <a href="cart.html" class="cart">Корзина</a>
+      </nav>
+      <h1 class="page-title">Магазин готовых шаблонов</h1>
+    </div>
   </header>
-  <main class="container">
-    <h1 class="page-title">Магазин готовых шаблонов</h1>
+  <main class="container main-container">
     <div class="catalog-columns">
       <section class="setting-filter">
         <h2 class="visually-hidden">Отфильтровать шаблоны по параметрам</h2>
         <form class="filter" method="get" action="https://echo.htmlacademy.ru">
+          <fieldset class="filter-item">
+            <legend>Стоимость:</legend>
+            <div class="range-filter">
+              <div class="range-controls">
+                <div class="scale">
+                  <div class="bar"></div>
+                </div>
+                <div class="toggle toggle-min"></div>
+                <div class="toggle toggle-max"></div>
+              </div>
+              <div class="price-controls">
+                <label class="min-price">от <input name="min-price" type="text" value="0"></label>
+                <label class="max-price">до <input name="max-price" type="text" value="15000"></label>
+              </div>
+            </div>
+          </fieldset>
           <fieldset>
             <legend>Сетка:</legend>
             <div class="grid-item">
@@ -69,7 +85,7 @@
           <div class="catalog-item-info">
             <h3 class="catalog-item-name">Sedona</h3>
             <p class="catalog-item-specification">Информационный сайт<br> для туристов</p>
-            <a class="button purchase" href="#">9 900 РУБ.</a>
+            <a class="button-purchase" href="#">9 900 РУБ.</a>
           </div>
         </div>
         <div class="catalog-item-preview">
@@ -111,9 +127,9 @@
     </div>
   </main>
   <footer class="main-footer">
-    <div class="footer-container">
+    <div class="container footer-container">
       <div class="footer-social">
-        <ul>
+        <ul class="social-navigation">
           <li><a class="social-button" href="#" aria-label="Дизайн-студия «Нёрдс» во вКонтакте"><img src="vk-icon.svg" alt="вКонтакте"></a></li>
           <li><a class="social-button" href="#" aria-label="Дизайн-студия «Нёрдс» на Фейсбуке"><img src="fb-icon.svg" alt="Фейсбук"></a></li>
           <li><a class="social-button" href="#" aria-label="Дизайн-студия «Нёрдс» в Инстаграме"><img src="insta-icon.svg" alt="Инстаграм"></a></li>
@@ -140,7 +156,7 @@
         <label for="write-to-us-writing">Текст письма:</label>
         <input type="text" id="write-to-us-writing" name="writing" value="" placeholder="В свободной форме">
       </p>
-      <button class="button red" type="submit">Отправить</button>
+      <button class="button-submit" type="submit">Отправить</button>
     </form>
   </div>
 </body>
