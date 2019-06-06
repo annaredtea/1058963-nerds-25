@@ -13,7 +13,7 @@ body {
 
 
 a {
-  text-decoration: none;
+  color: #000000;
 }
 
 img {
@@ -25,15 +25,12 @@ img {
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
   position: absolute;
-
   width: 1px;
   height: 1px;
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
-
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
@@ -59,7 +56,6 @@ input[type="radio"].visually-hidden {
   display: flex;
   align-items: center;
   margin-bottom: 18px;
-  list-style: none;
   text-decoration: none;
 }
 
@@ -103,7 +99,6 @@ input[type="radio"].visually-hidden {
 .cart  {
   margin: 0;
   padding: 0;
-  padding-left: 60px;
   list-style: none;
   margin-left: auto;
   text-transform: uppercase;
@@ -120,7 +115,7 @@ input[type="radio"].visually-hidden {
   position: absolute;
   width: 15px;
   height: 15px;
-  top: 5px;
+  top: 3px;
   left: 15px;
   background-image: url("../img/cart-icon.svg");
   background-repeat: no-repeat;
@@ -149,7 +144,6 @@ input[type="radio"].visually-hidden {
 
 .slider {
   position: relative;
-
   background-color: #eeeeee;
 }
 
@@ -158,10 +152,8 @@ input[type="radio"].visually-hidden {
   left: 50%;
   bottom: 104px;
   z-index: 100;
-
   width: 160px;
   height: 18px;
-
   text-align: center;
   font-size: 0;
   transform: translateX(-50%);
@@ -179,17 +171,13 @@ input[type="radio"].visually-hidden {
 
 .slider-controls label::after {
   content: "";
-
   position: absolute;
   top: 8px;
   left: 8px;
   z-index: 1;
-
   width: 18px;
   height: 18px;
-
   background: #ffffff;
-
   border-radius: 50%;
 }
 
@@ -411,7 +399,6 @@ input[type="radio"].visually-hidden {
   margin-top: 17px;
 }
 
-
 .filter fieldset {
   border: none;
 }
@@ -543,6 +530,62 @@ input[type="radio"].visually-hidden {
   font-size: 16px;
   line-height: 20px;
   color: #283136;
+  padding-left: 36px;
+}
+
+.features-item label {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  user-select: none;
+  color: #283136;
+}
+
+.features-item::before {
+  content: "";
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  background-image: url("../img/checkbox-off.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  left: 612px;
+  top: px;
+  opacity: 0.4;
+}
+
+.features-item:checked + label::before {
+  content: "";
+  position: absolute;
+  width: 27px;
+  height: 23px;
+  background-image: url("../img/checkbox-on.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  left: 650px;
+  top: px;
+  opacity: 0.4;
+}
+
+.grid-item label {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  user-select: none;
+  color: #283136;
+}
+
+.grid-item::before {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-image: url("../img/radio-off.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  left: 611px;
+  top: px;
+  opacity: 0.4;
 }
 
 .grid-group:hover,
@@ -592,7 +635,6 @@ input[type="radio"].visually-hidden {
 .catalog-item-preview:nth-child(2n) {
   margin-right: 0;
 }
-
 
 .catalog-item-specification {
   font-size: 16px;
@@ -662,6 +704,7 @@ input[type="radio"].visually-hidden {
   border-radius: 50%;
   text-align: center;
   position: relative;
+  margin-top: 0px;
 }
 
 .social-navigation li:hover,
@@ -686,7 +729,7 @@ input[type="radio"].visually-hidden {
 }
 
 .special-offer {
-  margin-left: 139px;
+  margin-left: 127px;
 }
 
 .special-offer b {
