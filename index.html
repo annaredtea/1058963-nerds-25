@@ -95,8 +95,9 @@
       </div>
     </div>
   </footer>
-  <div class="write-to-us">
+  <div class="modal write-to-us">
     <h2>Напишите нам!</h2>
+    <button class="modal-close" type="button">Закрыть</button>
     <form class="write-to-us-form" action="https://echo.htmlacademy.ru" method="post">
       <p class="write-to-us-item">
         <label for="write-to-us-name">Ваше имя:</label>
@@ -106,11 +107,8 @@
         <label for="write-to-us-e-mail">Ваш e-mail:</label>
         <input type="text" id="write-to-us-e-mail" name="e-mail" value="" placeholder="email@example.com">
       </p>
-      <p class="write-to-us-item">
-        <label for="write-to-us-writing">Текст письма:</label>
-        <input type="text" id="write-to-us-writing" name="writing" value="" placeholder="В свободной форме">
-      </p>
-      <button class="button submit" type="submit">Отправить</button>
+      <p class="write-to-us-text-area modal-text">Текст письма:<textarea class="write-to-us-writing" id="comment-field" name="writing" rows="4" placeholder="В свободной форме"></textarea></p>
+      <button class="button-submit" type="submit">Отправить</button>
     </form>
   </div>
 </body>
