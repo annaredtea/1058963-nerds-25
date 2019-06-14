@@ -820,32 +820,72 @@ sup {
 
 .sorting {
   display: flex;
-  flex-direction: row;
   padding: 0;
   margin: 0;
   text-transform: uppercase;
-  margin-top: 45px;
+  margin-top: 60px;
+  margin-bottom: 59px;
+  min-width: 760px;
 }
 
 .sorting-list {
+  margin: 0;
+  padding: 0;
   display: flex;
-  flex-wrap: nowrap;
   padding-inline-start: 0;
 }
 
 .sorting-list li {
+  padding: 0;
+  margin: 0;
   margin-left: 27px;
   list-style: none;
+  font-size: 14px;
+  text-align: left;
+  line-height: 18px;
 }
 
 .sorting-list-item a {
   text-decoration: none;
+  opacity: 0.3;
+}
+
+.catalog-arrows-buttons {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+}
+
+.catalog-arrow-down {
+  width: 0;
+  height: 0;
+  padding: 0;
+  margin-right: 16px;
+  border-style: solid;
+  border-width: 10px 5.5px 0;
+  border-color:  #000000 transparent transparent;
+  background-color: transparent;
+}
+
+.catalog-arrow-up {
+  margin: 0;
+  border-width: 0 5.5px 10px;
+  border-color: transparent transparent #a6a6a6;;
+  width: 0;
+  height: 0;
+  padding: 0;
+  border-style: solid;
+  background-color: transparent;
 }
 
 .sorting-list-title {
   margin-right: 240px;
   font-weight: 600;
   font-size: 18px;
+}
+
+.catalog-arrow-down {
+  margin-left: 48px;
 }
 
 .catalog-item-name a {
@@ -879,14 +919,17 @@ sup {
   padding: 0;
   margin: 0;
   position: relative;
-  width: 360px;
+  min-width: 360px;
   margin-bottom: 33px;
-  margin-right: 20px;
 }
 
-/* .catalog-item-preview:nth-child(2n) {
-  margin-right: 0;
-} */
+.catalog-item-preview:nth-child(1n) {
+  margin-right: 0px;
+}
+
+.catalog-item-preview:nth-child(2n) {
+  margin-right: 40px;
+}
 
 .catalog-item-preview img {
   display: block;
@@ -1132,20 +1175,17 @@ svg:active {
 
 .modal {
   position: fixed;
+  z-index: 100;
   top: 50%;
   left: 50%;
   margin-left: -480px;
   margin-top: -200px;
   width: 960px;
-  height: 590px;
   background-color: #ffffff;
   box-shadow: 0px 20px 40px 0;
   padding: 73px 100px 84px 101px;
   box-sizing: border-box;
   border-radius: 3px;
-
-
-  display: none;
 }
 
 .modal-close {
@@ -1167,6 +1207,17 @@ svg:active {
   height: 21px;
   background-image: url("../img/close-cross.svg");
 }
+
+.modal-close:hover,
+.modal-close:hover {
+  opacity: 1;
+}
+
+.modal-close:active,
+.modal-close:active {
+  opacity: 0.1;
+}
+
 
 .write-to-us h2 {
   position: relative;
@@ -1214,7 +1265,9 @@ svg:active {
 
 .write-to-us-text-area {
   display: inline-block;
-  width: 360px;
+  width: 760px;
+  margin: 0;
+  margin-bottom: 47px;
 }
 
 .modal-text {
@@ -1240,7 +1293,6 @@ svg:active {
 }
 
 .button-submit {
-  position: absolute;
   bottom: 0px;
   background-color: #fb565a;
   width: 260px;
@@ -1256,7 +1308,6 @@ svg:active {
   padding-bottom: 17px;
   text-align: center;
   border-radius: 3px;
-  margin-bottom: 75px;
 }
 
 .name, .e-mail, .writing {
