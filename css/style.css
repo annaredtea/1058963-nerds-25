@@ -101,7 +101,11 @@ img {
 }
 
 .site-navigation li:nth-child(2n) {
+  margin-right: 47px;
+}
 
+.site-navigation li:nth-child(3n) {
+  margin-right: 45px;
 }
 
 .site-navigation-link {
@@ -166,7 +170,7 @@ img {
 .slider-controls {
   position: absolute;
   left: 50%;
-  bottom: 108px;
+  bottom: 102px;
   z-index: 100;
   width: 160px;
   height: 18px;
@@ -209,13 +213,13 @@ img {
 
 .slider-item {
   display: none;
-  padding: 70px 0 86px 0;
+  padding: 52px 0 82px 0;
 }
 
 .slider-item:nth-child(1) {
   background-image: url("../img/slide-picture-1.png");
   background-repeat: no-repeat;
-  background-position: 93% 11px;
+  background-position: 93%;
 }
 
 .slider-item:nth-child(2) {
@@ -261,7 +265,7 @@ img {
 .slider-item h3 {
   max-width: 600px;
   margin: 0;
-  margin-bottom: 27px;
+  margin-bottom: 29px;
   font-size: 55px;
   line-height: 55px;
   font-weight: 500;
