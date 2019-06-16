@@ -45,7 +45,7 @@ img {
 }
 
 .main-header-logo {
-  margin-right: 200px;
+  margin-right: 202px;
 }
 
 .main-navigation {
@@ -71,6 +71,7 @@ img {
   padding: 0;
   list-style: none;
   text-decoration: none;
+  padding-top: 10px;
 }
 
 .site-navigation-current {
@@ -96,7 +97,11 @@ img {
 }
 
 .site-navigation li {
-  margin-right: 48px;
+  margin-right: 46px;
+}
+
+.site-navigation li:nth-child(2n) {
+
 }
 
 .site-navigation-link {
@@ -113,6 +118,7 @@ img {
   margin-left: auto;
   text-transform: uppercase;
   text-decoration: none;
+  padding-top: 10px;
 }
 
 .main-navigation .cart {
@@ -125,8 +131,8 @@ img {
   position: absolute;
   width: 15px;
   height: 15px;
-  top: 3px;
-  left: 15px;
+  top: 15px;
+  left: 9px;
   background-image: url("../img/cart-icon.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -160,7 +166,7 @@ img {
 .slider-controls {
   position: absolute;
   left: 50%;
-  bottom: 96px;
+  bottom: 108px;
   z-index: 100;
   width: 160px;
   height: 18px;
@@ -203,13 +209,13 @@ img {
 
 .slider-item {
   display: none;
-  padding: 78px 0 80px 0;
+  padding: 70px 0 86px 0;
 }
 
 .slider-item:nth-child(1) {
   background-image: url("../img/slide-picture-1.png");
   background-repeat: no-repeat;
-  background-position: 93% 18px;
+  background-position: 93% 11px;
 }
 
 .slider-item:nth-child(2) {
@@ -265,7 +271,7 @@ img {
   color: #283136;
   max-width: 430px;
   margin: 0;
-  margin-bottom: 38px;
+  margin-bottom: 43px;
 }
 
 .slider-item-button {
@@ -304,7 +310,7 @@ img {
 }
 
 .services {
-  margin-top: 80px;
+  margin-top: 75px;
   border-bottom: 2px solid #eeeeee;
 }
 
