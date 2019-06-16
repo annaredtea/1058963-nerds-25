@@ -51,7 +51,6 @@ img {
 .main-navigation {
   display: flex;
   align-items: center;
-  margin-bottom: 18px;
   text-decoration: none;
   font-weight: 500;
 }
@@ -213,13 +212,13 @@ img {
 
 .slider-item {
   display: none;
-  padding: 52px 0 82px 0;
+  padding: 78px 0 80px 0;
 }
 
 .slider-item:nth-child(1) {
   background-image: url("../img/slide-picture-1.png");
   background-repeat: no-repeat;
-  background-position: 93%;
+  background-position: 93% 18px;
 }
 
 .slider-item:nth-child(2) {
@@ -275,13 +274,13 @@ img {
   color: #283136;
   max-width: 430px;
   margin: 0;
-  margin-bottom: 43px;
+  margin-bottom: 38px;
 }
 
 .slider-item-button {
   display: block;
   width: 240px;
-  padding: 13px 0;
+  padding: 16px 0;
   font-size: 16px;
   line-height: 18px;
   color: #ffffff;
