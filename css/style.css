@@ -347,7 +347,7 @@ img {
   font-size: 16px;
   font-weight: normal;
   margin: 0;
-  margin-bottom: 35px;
+  margin-bottom: 33px;
 }
 
 .services-item p:nth-child(1n) {
@@ -360,7 +360,7 @@ img {
 }
 
 .services-item p:nth-child(3n) {
-  margin-top: 24px;
+  margin-top: 18px;
   margin-left: 1px;
 }
 
@@ -446,11 +446,10 @@ img {
 .description-text-tagline {
   margin: 0;
   margin-top: 33px;
-  margin-bottom: 47px;
+  margin-bottom: 39px;
 }
 
 .description-order-list {
-  margin-top: 38px;
   padding-inline-start: 0px;
   margin-bottom: 0;
 }
@@ -461,9 +460,9 @@ img {
   text-align: left;
   line-height: 24px;
   list-style: none;
-  margin-bottom: 25px;
-  margin-top: 25px;
-  padding-inline-start: 40px;
+  margin-top: 22px;
+  padding-inline-start: 35px;
+  margin-left: 2px;
 }
 
 .description-order-list-item:last-child {
@@ -472,7 +471,7 @@ img {
 
 .description-order-list-item::before {
   content: "";
-  top: 12px;
+  top: 10px;
   left: 0px;
   position: absolute;
   width: 25px;
@@ -496,23 +495,27 @@ img {
 }
 
 .description-statistics-tagline {
-  margin-top: 28px;
+  margin-top: 29px;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 600;
   text-align: center;
-  margin-bottom: 49px;
+  margin-bottom: 51px;
 }
 
 .percentage {
   font-size: 45px;
   font-weight: 600;
   line-height: 10px;
-  padding: 0 20px 34px 0;
+  padding: 0 19px 35px 0;
 }
 
 .percentage-description {
   line-height: 18px;
+}
+
+.percentage-description:nth-child(2n) {
+  margin-right: 2px;
 }
 
 sup {
