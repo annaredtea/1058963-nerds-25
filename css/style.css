@@ -264,7 +264,7 @@ img {
 .slider-item h3 {
   max-width: 600px;
   margin: 0;
-  margin-bottom: 29px;
+  margin-bottom: 27px;
   font-size: 55px;
   line-height: 55px;
   font-weight: 500;
@@ -346,6 +346,22 @@ img {
   color: #283136;
   font-size: 16px;
   font-weight: normal;
+  margin: 0;
+  margin-bottom: 35px;
+}
+
+.services-item p:nth-child(1n) {
+  margin-top: 23px;
+  margin-left: 2px;
+}
+
+.services-item p:nth-child(2n) {
+  margin-top: 24px;
+}
+
+.services-item p:nth-child(3n) {
+  margin-top: 24px;
+  margin-left: 1px;
 }
 
 .button-services {
@@ -363,7 +379,6 @@ img {
   text-decoration: none;
   border-radius: 3px;
   border: none;
-  margin-top: 18px;
 }
 
 .red {
@@ -431,6 +446,7 @@ img {
 .description-text-tagline {
   margin: 0;
   margin-top: 33px;
+  margin-bottom: 47px;
 }
 
 .description-order-list {
@@ -898,6 +914,7 @@ sup {
 }
 
 .sorting-list-title {
+  margin: 0;
   margin-right: 240px;
   font-weight: 600;
   font-size: 18px;
