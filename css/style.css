@@ -307,8 +307,8 @@ img {
   font-weight: 500;
   font-size: 55px;
   text-align: center;
-  padding-bottom: 116px;
-  padding-top: 40px;
+  padding-bottom: 123px;
+  padding-top: 86px;
   margin: 0;
 }
 
@@ -339,7 +339,7 @@ img {
   font-weight: bold;
   line-height: 30px;
   margin-top: 18px;
-  margin-bottom: 0;
+  margin-bottom: 16px;
 }
 
 .services-item p {
@@ -367,7 +367,7 @@ img {
 .button-services {
   display: inline-block;
   margin-right: 240px;
-  padding: 15px 40px 15px 39px;
+  padding: 17px 40px 15px 39px;
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -609,14 +609,14 @@ sup {
   padding: 0;
   margin: 0;
   border: none;
-  margin-top: 62px;
+  margin-top: 56px;
 }
 
 .features-filter {
   padding: 0;
   margin: 0;
   border: none;
-  margin-top: 51px;
+  margin-top: 41px;
   margin-bottom: 48px;
 }
 
@@ -636,7 +636,7 @@ sup {
   line-height: 20px;
   color: #283136;
   list-style: none;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 .grid-item label {
@@ -701,7 +701,7 @@ sup {
   font-size: 16px;
   line-height: 20px;
   color: #283136;
-  margin-top: 17px;
+  margin-top: 20px;
 }
 
 .features-item label {
@@ -757,15 +757,15 @@ sup {
 
 .range-filter {
   width: 260px;
-  margin-top: 56px;
+  margin-top: 50px;
 }
 
 .filter-item legend {
   font-size: 18px;
   line-height: 24px;
   text-transform: uppercase;
-  font-weight: 700;
-  padding-top: 63px;
+  font-weight: 600;
+  padding-top: 60px;
 }
 
 .range-controls {
@@ -792,7 +792,7 @@ sup {
 
 .range-controls .toggle {
   position: absolute;
-  top: 31px;
+  top: 30px;
   left: 0;
   width: 4px;
   height: 4px;
@@ -862,8 +862,8 @@ sup {
   padding: 0;
   margin: 0;
   text-transform: uppercase;
-  margin-top: 60px;
-  margin-bottom: 59px;
+  margin-top: 56px;
+  margin-bottom: 55px;
   min-width: 760px;
 }
 
@@ -873,6 +873,7 @@ sup {
   padding: 0;
   display: flex;
   padding-inline-start: 0;
+  margin-top: 4px;
 }
 
 .sorting-list li {
@@ -1034,7 +1035,7 @@ sup {
   text-transform: uppercase;
   text-decoration: none;
   background-color: #eeeeee;
-  padding: 19px 88px 18px 89px;
+  padding: 14px 88px 15px 89px;
   border: none;
   border-radius: 3px;
 }
@@ -1098,7 +1099,7 @@ sup {
   flex-wrap: wrap;
   padding: 0;
   margin: 0;
-  margin-top: 60px;
+  margin-top: 27px;
 }
 
 .page-link {
@@ -1111,7 +1112,7 @@ sup {
   color: #2e2e2e;
   font-size: 16px;
   line-height: 45px;
-  padding: 0px 21px;
+  padding: 0px 18px;
   border-radius: 3%;
   margin-right: 11px;
 }
@@ -1127,6 +1128,9 @@ sup {
 
 .page-link:last-child {
   margin-right: 0;
+  text-transform: uppercase;
+  padding: 15px 79px 18px 78px;
+  line-height: 18px;
 }
 
 .page-current {
@@ -1198,6 +1202,7 @@ svg:active {
   text-align: left;
   font-weight: bold;
   line-height: 36px;
+  margin-top: 5px;
 }
 
 .special-offer p {
@@ -1439,7 +1444,7 @@ svg:active {
 
 .map {
   width: 100%;
-  margin-top: 80px;
+  margin-top: 60px;
   background-image: url("../img/map.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -1487,16 +1492,19 @@ svg:active {
 }
 
 .adress {
-  margin: 5px;
+  margin: 0;
+  color: #666666;
 }
 
 .phone {
   margin: 0;
+  color: #666666;
 }
 
 .contacts-title {
   padding: 0;
   margin: 0;
+  font-size: 18px;
 }
 
 .modal-overlay {
