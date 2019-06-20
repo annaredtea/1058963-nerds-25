@@ -350,7 +350,7 @@ img {
   margin-bottom: 33px;
 }
 
-.services-item p:nth-child(1n) {
+.services-item p:first-child {
   margin-top: 23px;
   margin-left: 2px;
 }
@@ -359,7 +359,7 @@ img {
   margin-top: 24px;
 }
 
-.services-item p:nth-child(3n) {
+.services-item p:last-child {
   margin-top: 18px;
   margin-left: 1px;
 }
@@ -432,12 +432,10 @@ img {
   margin-top: 75px;
   min-width: 650px;
   margin-right: 149px;
-  margin-bottom: 76px;
+  margin-bottom: 72px;
 }
 
 .description-text-title {
-  margin-top: 0;
-  margin-bottom: 35px;
   font-size: 45px;
   font-weight: 500;
   line-height: 45px;
@@ -460,7 +458,7 @@ img {
   text-align: left;
   line-height: 24px;
   list-style: none;
-  margin-top: 22px;
+  margin-top: 24px;
   padding-inline-start: 35px;
   margin-left: 2px;
 }
@@ -512,9 +510,10 @@ img {
 
 .percentage-description {
   line-height: 18px;
+  padding-inline-start: 0;
 }
 
-.percentage-description:nth-child(2n) {
+.percentage-description:nth-child(3n) {
   margin-right: 2px;
 }
 
@@ -528,7 +527,6 @@ sup {
   margin: 0;
   display: flex;
   list-style: none;
-  justify-content: space-between;
   border-bottom: 2px solid #eeeeee;
   padding-inline-start: 31px;
 }
@@ -541,7 +539,7 @@ sup {
   position: relative;
   padding: 0;
   margin: 0;
-  margin-bottom: 44px;
+  margin-bottom: 37px;
 }
 
 .partners-item:after {
@@ -573,8 +571,8 @@ sup {
   height: 52px;
   background-color: #eeeeee;
   position: absolute;
-  top: 15px;
-  left: 244px;
+  top: 17px;
+  left: 254px;
 }
 
 .partners-item:nth-child(3n):after {
@@ -583,23 +581,27 @@ sup {
   height: 52px;
   background-color: #eeeeee;
   position: absolute;
-  top: 3px;
-  left: 228px;
+  top: 1px;
+  left: 242px;
 }
 
 .partners-item:first-child {
   margin-top: 62px;
+  margin-right: 87px;
 }
 
 .partners-item:nth-child(2n) {
-  margin-top: 41px;
+  margin-top: 46px;
+  margin-right: 103px;
+  margin-left: 9px;
 }
 
 .partners-item:nth-child(3n) {
-  margin-top: 59px;
+  margin-top: 65px;
+  margin-right: 112px;
 }
 .partners-item:nth-child(4n) {
-  margin-top: 45px;
+  margin-top: 52px;
   margin-right: 43px;
 }
 
@@ -1482,6 +1484,14 @@ svg:active {
   text-align: center;
   border-radius: 3px;
   margin-top: 37px;
+}
+
+.adress {
+  margin: 0;
+}
+
+.phone {
+  margin: 0;
 }
 
 .contacts-title {
