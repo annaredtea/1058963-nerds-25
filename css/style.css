@@ -625,7 +625,15 @@ sup {
   margin-bottom: 30px;
 }
 
-.filter ul {
+.grid-item-filter {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  line-height: 20px;
+  margin-top: 17px;
+}
+
+.features-item-filter {
   padding: 0;
   margin: 0;
   list-style: none;
