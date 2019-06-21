@@ -617,8 +617,8 @@ sup {
   padding: 0;
   margin: 0;
   border: none;
-  margin-top: 23px;
-  margin-bottom: 28px;
+  margin-top: 21px;
+  margin-bottom: 48px;
 }
 
 .filter-legend {
@@ -889,10 +889,10 @@ sup {
   margin-top: 4px;
 }
 
-.sorting-list li {
+.sorting-list-item {
   padding: 0;
   margin: 0;
-  margin-left: 27px;
+  margin-left: 26px;
   list-style: none;
   font-size: 14px;
   text-align: left;
@@ -902,6 +902,10 @@ sup {
 .sorting-list-item a {
   text-decoration: none;
   opacity: 0.3;
+}
+
+.sorting-list-current {
+  margin-left: 27px;
 }
 
 .catalog-arrows-buttons {
