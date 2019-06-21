@@ -529,6 +529,7 @@ sup {
   list-style: none;
   border-bottom: 2px solid #eeeeee;
   padding-inline-start: 31px;
+  margin-bottom: 80px;
 }
 
 .partners-item a {
@@ -616,8 +617,8 @@ sup {
   padding: 0;
   margin: 0;
   border: none;
-  margin-top: 41px;
-  margin-bottom: 48px;
+  margin-top: 23px;
+  margin-bottom: 28px;
 }
 
 .filter-legend {
@@ -636,7 +637,9 @@ sup {
   line-height: 20px;
   color: #283136;
   list-style: none;
-  margin-top: 20px;
+  margin-top: 15px;
+  margin: 0;
+  margin-bottom: 21px;
 }
 
 .grid-item label {
@@ -644,6 +647,7 @@ sup {
   display: block;
   cursor: pointer;
   user-select: none;
+  color: #283136;
 }
 
 .features-item input[type=checkbox] {
@@ -1129,7 +1133,7 @@ sup {
 .page-link:last-child {
   margin-right: 0;
   text-transform: uppercase;
-  padding: 15px 79px 18px 78px;
+  padding: 14px 74px 18px 74px;
   line-height: 18px;
 }
 
@@ -1494,6 +1498,7 @@ svg:active {
 .adress {
   margin: 0;
   color: #666666;
+  margin-bottom: 16px;
 }
 
 .phone {
@@ -1505,6 +1510,7 @@ svg:active {
   padding: 0;
   margin: 0;
   font-size: 18px;
+  margin-bottom: 10px;
 }
 
 .modal-overlay {
