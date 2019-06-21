@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  min-width: 1200px;
 
   font-family: "Roboto", Arial, sans-serif;
   font-size: 16px;
@@ -639,6 +640,7 @@ sup {
   list-style: none;
   line-height: 20px;
   margin-top: 17px;
+  margin-bottom: 18px;
 }
 
 .grid-item {
@@ -868,6 +870,7 @@ sup {
   display: flex;
   flex-wrap: wrap;
   min-width: 760px;
+  margin-bottom: 60px;
 }
 
 .sorting {
@@ -1467,6 +1470,11 @@ svg:active {
   background-size: cover;
   height: 416px;
   position: relative;
+}
+
+.map-container {
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .map iframe {
