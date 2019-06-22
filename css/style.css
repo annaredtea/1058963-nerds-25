@@ -343,17 +343,10 @@ img {
   margin-bottom: 16px;
 }
 
-/* .services-item-tagline {
-  color: #283136;
-  font-size: 16px;
-  font-weight: normal;
-  margin: 0;
-  margin-bottom: 33px;
-} */
 
 .services-list p:nth-of-type(1n){
   margin-top: 23px;
-  margin-left: 2px;
+  padding-left: 1px;
   color: #283136;
   font-size: 16px;
   font-weight: normal;
