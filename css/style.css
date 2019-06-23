@@ -845,7 +845,7 @@ sup {
 .price-controls input {
   width: 60px;
   padding: 8px 10px;
-  margin-left: 10px;
+  margin-left: 8px;
   font-family: Roboto, Arial, sans-serif;
   font-size: 16px;
   text-align: center;
@@ -1163,7 +1163,7 @@ sup {
 
 .main-footer {
   background-color: #ffffff;
-  margin-top: 69px;
+  margin-top: 66px;
 }
 
 .footer-container {
@@ -1232,7 +1232,7 @@ svg:active {
   font-weight: normal;
   color: #444444;
   line-height: 22px;
-  margin-top: 10px;
+  margin-top: 11px;
 }
 
 .write-to-us {
