@@ -1232,7 +1232,7 @@ svg:active {
   font-weight: normal;
   color: #444444;
   line-height: 22px;
-  margin-top: 12px;
+  margin-top: 10px;
 }
 
 .write-to-us {
@@ -1525,9 +1525,8 @@ svg:active {
 .adress {
   margin: 0;
   color: #666666;
-  margin-bottom: 16px;
   margin-top: 25px;
-  line-height: 1.1;
+  line-height: 1.2;
   margin-inline-start: 1px;
 }
 
@@ -1536,6 +1535,7 @@ svg:active {
   color: #666666;
   margin-inline-start: 1px;
   margin-block-start: 1.1em;
+  margin-top: 15px;
 }
 
 .contacts-title {
