@@ -617,7 +617,7 @@ sup {
   margin: 0;
   border: none;
   margin-top: 21px;
-  margin-bottom: 30px;
+  margin-bottom: 32px;
 }
 
 .grid-item-filter {
@@ -625,7 +625,7 @@ sup {
   margin: 0;
   list-style: none;
   line-height: 20px;
-  margin-top: 17px;
+  margin-top: 15px;
 }
 
 .features-item-filter {
@@ -1527,12 +1527,15 @@ svg:active {
   color: #666666;
   margin-bottom: 16px;
   margin-top: 25px;
-  line-height: 1.2;
+  line-height: 1.1;
+  margin-inline-start: 1px;
 }
 
 .phone {
   margin: 0;
   color: #666666;
+  margin-inline-start: 1px;
+  margin-block-start: 1.1em;
 }
 
 .contacts-title {
